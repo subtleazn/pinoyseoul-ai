@@ -1,0 +1,46 @@
+# Google Apps Script
+.clasp.json
+.claspignore
+
+# Environment variables and secrets
+.env
+*.key
+*.json
+service-account*.json
+
+# API Keys (NEVER commit these!)
+*API_KEY*
+*api_key*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+backup_*
+
+# Private/sensitive files
+PRIVATE_*
+private/
+sensitive/
+
+# Node modules (if using clasp)
+node_modules/
+package-lock.json
+
+# Test files
+test_*.gs
+*_test.gs
